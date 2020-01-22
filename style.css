@@ -1,0 +1,31 @@
+/* Navbar */
+    .navbar {
+        position: relative;
+        z-index: 1;
+    }
+    .navbar-brand {
+        font-size: 18px;
+    }
+    
+/* DESKTOP VERSION */
+@media (min-width: 1200px){
+
+    .navbar .container {
+        border-bottom: 1px solid #ffffff;
+    }
+    .navbar-brand, .nav-link {
+        color: #ffffff !important;
+    }
+    .navbar-brand {
+        margin-top: -20px;
+    }
+    .nav-link {
+        margin-right: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-style: bold;
+        text-transform: uppercase;
+    }
+    .nav-link:hover {
+        color: #FDE247 !important;
+    }
