@@ -46,6 +46,48 @@
         
     }
 
+/* Info Panel */
+	.ico-phone {
+        background: url(img/call-end.png) 0 0 no-repeat;
+    }
+    .ico-email {
+        background: url(img/email.png) 0 0 no-repeat;
+    }
+    .ico-address {
+        background: url(img/lokasi.png) 0 0 no-repeat;
+    }
+    .icon-home {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+    }
+    .det-ctc {
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .category {
+        background: #002f5b;
+        background-size: cover;
+        margin-top: -32px;
+        color: #fff;
+        position: relative;
+        padding: 14px 50px;
+    }
+    .category h4 {
+        color: #fde428;
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .category p {
+        color: #fff;
+        font-family: 'Latoregular';
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+    }
+
 /* Utilities*/
     a {
         text-decoration: none;
@@ -98,3 +140,24 @@
     .jumbotron {
         margin-top: -90px;
     }
+    .category:before {
+        content: "";
+        background: url(img/potongan-kiri.png) 0 0 no-repeat;
+        width: 39px;
+        height: 100px;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .category:after {
+        content: "";
+        background: url(img/potongan-kanan.png) 0 0 no-repeat;
+        width: 39px;
+        height: 100px;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+	}
