@@ -88,6 +88,43 @@
         padding: 0px;
     }
 
+/*Menu Fitur*/
+	.jarak {
+        margin: 50px 0 80px 0;
+    }
+    .judul-layanan {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .judul-layanan h3 {
+        font-size: 42px;
+        font-family: "Lato";
+        color: #333;
+        margin: 0 0 20px;
+        padding: 0px;
+    }
+    .ini-gambar {
+        display: inline-block;
+        width: 115px;
+        height: 115px;
+        float: left;
+    }
+    .deskripsi {
+        display: inline-block;
+        max-width:230px;
+        margin-left: 15px; 
+    }
+    .deskripsi h3 {
+        font-size: 24px;
+        font-family: 'Lato';
+        color: #333;
+        margin-bottom: 10px;
+    }
+    .deskripsi h3:hover a {
+        color: #c4ae05;
+    }
+
+
 /* Utilities*/
     a {
         text-decoration: none;
