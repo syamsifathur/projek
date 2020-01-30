@@ -196,6 +196,63 @@
         margin: 0 0 5px;
         padding: 0px;
     }
+    
+/* Menu Keunggulan*/
+    .keunggulan {
+        padding: 100px 0 0;
+        color: #333;
+        background: #fde428;
+    }
+    .konten-keunggulan h3 {
+        font-size: 42px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        letter-spacing: -0.7px;
+        margin-bottom: 30px;
+    }
+    .konten-keunggulan ul {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        font-size: 14px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .konten-keunggulan ul li {
+        display: block;
+        margin: 0 0px 15px;
+        padding: 0px 0px 0px 30px;
+        background: url(img/cek.png) 0 6px no-repeat;
+    }
+    .icon-badge {
+        display: inline-block;
+    }
+    .desk-badge {
+        display: inline-block;
+        padding: 40px;
+        margin-bottom: 30px;
+    }
+    .desk-badge h5 {
+        font-size: 16px;
+        font-family: 'Lato' , sans-serif;
+        font-weight: bold;
+        margin: 0px;
+        padding: 0px;
+        text-transform: capitalize;
+        color: #333;
+        letter-spacing: 0;
+    }
+    .desk-badge h3 {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Lato' , sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
+    img.img-tukang {
+        position: absolute;
+        right: -80px;
+        bottom: 0;
+    }
 
 
 /* Utilities*/
