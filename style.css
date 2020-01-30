@@ -196,7 +196,7 @@
         margin: 0 0 5px;
         padding: 0px;
     }
-    
+
 /* Menu Keunggulan*/
     .keunggulan {
         padding: 100px 0 0;
@@ -252,6 +252,14 @@
         position: absolute;
         right: -80px;
         bottom: 0;
+    }
+
+/* Menu Promo */
+    .promo {
+        padding: 100px 0;
+    }
+    .gambar-promo {
+        text-align: center;
     }
 
 
